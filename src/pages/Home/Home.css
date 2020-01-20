@@ -1,0 +1,18 @@
+.container-course {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.banner-home {
+  height: 600px;
+  background-color: #9848de;
+  border-bottom-right-radius: 100px;
+}
+
+.title-banner {
+  font-size: 50px;
+  color: #fff;
+}

@@ -1,0 +1,36 @@
+.container {
+  margin-top: 120px;
+}
+
+.content {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.profile-badge {
+  display: flex;
+  padding-top: 20px;
+}
+
+.profile-title {
+  margin-left: 30px;
+  color: rgb(47, 47, 47);
+  padding-top: 0px;
+}
+
+.profile-name {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.profile-email {
+  margin-top: 0px;
+  font-size: 15px;
+}
+
+.description {
+  text-align: justify;
+  color: rgb(104, 104, 104);
+}

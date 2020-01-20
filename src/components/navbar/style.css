@@ -1,0 +1,49 @@
+.nav {
+  background-color: #9848de !important;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  color: azure;
+  font-weight: bold;
+  font-size: 25px;
+  border-bottom-right-radius: 30px !important;
+  box-shadow: none !important;
+}
+
+.toolbar {
+  width: 80%;
+  margin: auto;
+}
+
+.child-nav-right {
+  text-align: right;
+  font-weight: bold !important;
+}
+
+.child-nav-left {
+  text-align: left;
+}
+
+.child-nav-center {
+  text-align: center !important;
+}
+
+.nav-title {
+  font-size: 30px;
+  color: #fff;
+}
+
+.button-icon {
+  color: azure !important;
+  border-color: transparent !important;
+  background-color: transparent !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  text-decoration: none;
+}
+
+.button-header {
+  color: azure !important;
+  border-color: azure !important;
+  font-size: 15px !important;
+}
