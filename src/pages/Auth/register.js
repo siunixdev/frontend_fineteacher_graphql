@@ -81,6 +81,12 @@ class Login extends Component {
             message: <AlertCourse message={errorMessage} type="error" />
           });
         } else {
+          localStorage.setItem("token", data.data.signUp.token);
+          localStorage.setItem("userId", data.data.signUp.userId);
+          localStorage.setItem(
+            "tokenExpiration",
+            data.data.signUp.tokenExpiration
+          );
           const signUpdata = data.data.signUp;
 
           const signUpMessage = signUpdata.message;
@@ -91,6 +97,8 @@ class Login extends Component {
           this.setState({ fullname: "" });
           this.setState({ email: "" });
           this.setState({ password: "" });
+
+          window.location.href = "http://localhost:3000/";
         }
       })
       .catch(err => {
